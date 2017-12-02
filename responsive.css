@@ -1,0 +1,189 @@
+@CHARSET "UTF-8";
+
+@media only screen and (max-width:1150px) {
+	.grid td.gallery {
+		width: 29% !important;
+	}
+	.bin.g-b {
+		width: 91.5% !important;
+	}
+}
+@media only screen and (max-width: 1150px) and (min-width: 961px) {
+    #it--footer:before {
+        height: 100px !important;
+        background-size: 30% !important;
+        width: 98% !important;
+    }
+    
+    #it--footer:after {
+        height: 50px !important;
+    }
+    .stBadge::after {
+        background-position: 850px !important;
+    }
+    
+    #storercp::after {
+        background-position: 650px !important;
+    }
+}
+@media only screen and (max-width:960px)  and (min-width:480px) {
+
+	#it--content .content-wrapper {
+        flex-flow: column-reverse !important;
+        justify-content: flex-start !important;
+    }
+    #it--content .left {
+        float: none !important;
+        width: 100% !important;
+        margin-top: 20px !important;
+    }
+    #it--content .right {
+        float: none !important;
+        width: 100% !important;
+    }
+    #it--content .image {
+        text-align: left !important;
+    }
+    #it--content .image img {
+        max-width: 70% !important;
+        min-width: 70% !important;
+    }
+	.pagecontainer {
+		width: 960px !important;
+	}
+	.it--banner {
+		height: 380px !important;
+	}
+	#storercp::before {
+	  	padding-right: 750px !Important;
+	}
+	.bin.g-b {
+		width: 187px !Important;
+	}
+    #it--footer .it--description {
+        width: 50% !important;
+    }
+    #it--footer:before {
+        height: 245px !important;
+        background-size: 30% !important;
+        width: 98% !important;
+    }
+    
+    #it--footer:after {
+        height: 50px !important;
+    }
+    .stBadge::after {
+        background-position: 850px !important;
+    }
+    
+    #storercp::after {
+        background-position: 660px !important;
+    }
+}
+
+@media only screen and (max-width:479px) {
+	.it--logo {
+		background-position: center 0 !important;
+	}
+	.it--logo  {
+		width: 100% !important;
+		height: 50px !important;
+		float: none !important;
+		position: relative !important;
+		top: 0 !important;
+		left: 0 !important;
+		margin: 0 !important;
+		background-size: auto 100% !important;
+	}
+    .it--wrapper {
+        padding: 20px !important;
+    }
+	#it--header .it--slogan {
+		position: relative !important;
+		left: auto !important;
+		top: auto !important;
+		text-align: center;
+		padding: 0 7px 0 7px;
+	}
+
+	#it--header .it--wrapper, #it--footer .it--wrapper {
+		width: 100% !important;
+		padding: 20px 0 !important;
+		height: auto !important;
+	}
+    
+    #it--content .title {
+        margin: 0 10px !important;
+    }
+    #it--content .content-wrapper {
+        flex-flow: column-reverse !important;
+        justify-content: flex-start !important;
+    }
+    #it--content .left {
+        float: none !important;
+        width: 100% !important;
+        margin-top: 20px !important;
+    }
+    #it--content .right {
+        float: none !important;
+        width: 100% !important;
+    }
+	#it--content .left {
+		margin-left: 5% !important;
+		margin-right: 5% !important;
+	}
+
+	#it--content .image {
+		padding-top: 3% !important;
+		margin: 0 !important;
+		text-align: center !important;
+        height: auto !important;
+        max-height: 400px !important;
+	}
+
+	#it--content .image img {
+		max-width: 90% !important;
+		min-width: 90%;
+	}
+
+	#it--header .it--wrapper::before {
+		display: none;
+	}
+	#it--footer .it--slogan {
+		text-align: center;
+		margin: 5px 0 !important;
+		left: 0 !important;
+		padding: 10px 7px 0 7px;
+		font-size: 120% !important;
+	}
+
+	#it--footer .it--description {
+		width: 90% !important;
+        text-align: center;
+        font-size: 90% !important;
+        margin: 10px auto 0 !important;
+	}
+
+	#it--wrapper {
+		width: 100%;
+		padding: 0 !important;
+	}
+    #it--footer:before {
+        display: none;
+    }
+    
+    #it--footer:after {
+        height: 50px !important;
+        background-image: url(https://img.freeauctiondesigns.com/dancurran92/credit.png);
+        background-repeat: no-repeat;
+        background-position: center !important;
+        background-size: 70%;
+    }
+    .stBadge::after {
+        background-position: 850px !important;
+    }
+    
+    #storercp::after {
+        background-position: 650px !important;
+    }
+}

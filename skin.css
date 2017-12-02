@@ -1,0 +1,493 @@
+@CHARSET "UTF-8";
+
+@import url("../../skins/skin3/responsive.css");
+
+.it--slogan:before {
+content: "Handcafted E-Liquid & Head Shop";
+}
+.it--description:before {
+content: "";
+}
+.it--logo {
+    background-image: url(https://img.freeauctiondesigns.com/dancurran92/logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.it--banner {
+    background-image: url(https://img.freeauctiondesigns.com/dancurran92/banner.jpg);
+    background-repeat: no-repeat;
+    background-color: #061528;
+}
+
+.it--wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0 50px;
+}
+#it--header {
+    position: relative;
+}
+#it--header .it--wrapper,
+#it--footer .it--wrapper {
+background: #061528;
+color: #ffffff;
+}
+#it--header .it--wrapper {
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+border-bottom: 15px solid #7ce544;
+}
+
+#it--footer .it--wrapper {
+border-top: 15px solid #7ce544;
+padding-bottom: 20px;
+}
+
+#it--header .it--logo  {
+    height: 50px;
+    background-position: 0 0;
+    background-size: auto 100%;
+    display: none;
+}
+
+#it--header .it--banner {
+    display: none;
+}
+
+#it--header .it--slogan {
+    margin: 10px 0 0 10px;
+    color: #ffffff;
+    font-size:  14px;
+}
+
+#it--header .it--description {
+    display: none;
+}
+
+#it--header .it--wrapper:before {
+    content: "";
+    float: right;
+    text-align: right;
+    width: 40%;
+    font-size: 90%;
+    margin-top: 20px;
+    opacity: .7;
+    line-height: 150%;
+    display: none;
+}
+
+.it--banner {
+    height: 550px;
+    display: block;
+    position: relative;
+}
+#it--content {
+    margin: 30px 0 50px;
+}
+#it--content .title {
+    font-size: 24px;
+}
+#it--content .content-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#it--content .left {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+#it--content .left img {
+    max-width: 90%;
+    height: auto !important;
+    max-height: 400px;
+}
+
+#it--content .attributes table {
+    width: 100%;
+    text-align: left;
+    font-size: 90%;
+}
+
+#it--content .attributes th,
+#it--content .attributes td {
+    padding: 2px;
+}
+#it--content .attributes th {
+    background: #f2f2f2;
+}
+#it--content .attributes td {
+    border-bottom: 1px solid #ddd;
+}
+#it--content .attributes tr td:first-child {
+    width: 60%;
+}
+#it--content .attributes tr:last-child td {
+    border: none;
+}
+
+#it--content .image {
+    margin-top: 0px;
+    width: auto;
+    height: 400px;
+    text-align: center;
+}
+#it--content .image img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+}
+
+#it--footer .it--logo {
+    height: 60px;
+    left: 0;
+    position: relative;
+    top: 20px;
+    width: 200px;
+    background-size: auto 100%;
+}
+#it--footer .it--slogan {
+    margin: 30px 0 0 10px;
+    font-size: 90%;
+}
+#it--footer .it--description {
+    font-size: 80%;
+    margin: 20px 0 0 10px;
+    width: 35%;
+    opacity: .6;
+}
+
+/** Promo banner **/
+
+#it--footer::after { /* background */
+    content: ' ';
+    background-color: #b3b2b2;
+    width: 100%;
+    height: 70px;
+    display: block;
+}
+
+#it--footer:before { /* logo */
+    content: ' ';
+    background-image: url(https://img.freeauctiondesigns.com/dancurran92/credit.png);
+    width: 96%;
+    height: 250px;
+    background-size: 25%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#LeftPanel {
+    background: #061528;
+    color: #ffffff;
+}
+#CentralArea {
+    padding-top: 20px;
+}
+
+.pagecontainer #it--header {
+    display: block;
+    margin-bottom: -18px;
+}
+
+.pagecontainer #it--header .it--banner {
+    display: block;
+}
+
+.pagecontainer #it--header .it--logo {
+    position: absolute;
+    width: 230px;
+    height: 550px;
+    background-color: #061528;
+    top: 0;
+    left: 0;
+    background-size: auto 50px;
+    background-position: 30px 100px;
+    opacity: .8;
+    display: block;
+}
+
+.pagecontainer #it--header .it--slogan {
+    width: 16%;
+    width: 16%;
+    position: absolute;
+    margin: 0;
+    top: 170px;
+    left: 30px;
+    font-size: 95%;
+}
+.pagecontainer #it--header .it--slogan:after {
+    content: "";
+    color: #ffffff;
+    opacity: .6;
+    display: block;
+    width: 170px;
+    margin-top: 20px;
+    font-size: 70%;
+    line-height: 150%;
+    max-height: 210px;
+    overflow: hidden;
+}
+
+.pagecontainer #it--footer {
+    display: none;
+}
+
+table.v4acpcont {
+    background: none;
+    margin-bottom: 0;
+    padding: 10px 20px 20px;
+}
+
+.v4acp_head .v4accent,
+.v4mid .ttl {
+    display: none;
+}
+table.v4midBox{
+    border: none;
+}
+table.v4acp tr.v4acp_head td.v4title {
+    background: none;
+    color: #000;
+    display: block;
+    padding: 5px 0 !important;
+}
+table.v4midBox tr.v4acp_mid td.v4mid {
+    background: none;
+    padding: 0;
+}
+table.v4clp td ul {
+    margin: 0;
+}
+body #LeftPanel a:link, body .g-novisited a:visited,
+.v4mid a ,
+.lcat .cnt {
+color: #ffffff;
+font-weight: normal;
+}
+table.v4clp td {
+    padding-top: 0;
+}
+.v4mid li {
+    margin: 2px 0 !important;
+    list-style: none;
+}
+.v4acp font {
+    color: #000;
+}
+.r3_t i, .r3_bl i,
+.r3_hm, .r3_c, .r3_s {
+    border: none;
+}
+.ctrlbr {
+    border: none;
+    padding: 10px 0;
+    margin-top: -1.5em;
+}
+td#CentralArea span.pdmt {
+    float: right;
+    padding: 0;
+}
+span.pdmt .cur {
+    color: #000;
+    display: inline-block;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    padding: 7px 10px;
+    background: #fff;
+}
+.stBadge-accent,
+td#CentralArea div.v4stabl,
+td#CentralArea span.pdmt:first-child,
+.r3_t, .r3_t b, .r3_bl, .r3_bl b,
+.cmpBr,
+span.pdmt img,
+span.pdmt .label,
+.itemseparator,
+.mi,
+.clr.time2,
+.ttl.g-std img,
+.v4title h2,
+.whiter-w {
+    display: none;
+}
+
+.grid td.left,
+.rs_box,
+td#CentralArea div.dynpg {
+    border: none;
+}
+span.pdmt:after {
+    display: inline-block;
+    content: '▼';
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+    vertical-align: top;
+    font-size: 10px;
+}
+.fpcc .countClass {
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.pageminwidth {
+    background: #f2f2f2;
+}
+
+.grid {
+    text-align: right;
+}
+
+.grid td.gallery {
+    background: #fff;
+    display: inline-block;
+    padding: 7px 0 7px 20px;
+    width: 30%;
+    vertical-align: top;
+    position: relative;
+    padding-bottom: 30px;
+    text-align: left;
+    margin: 0 0 10px 15px;
+}
+table.gallery {
+    height: 300px;
+    background: #fff;
+    position: relative;
+    display: block;
+}
+.grid td.gallery:first-child {
+    margin-left: 0;
+}
+
+table.gallery td.picture div.image a {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    z-index: 10;
+}
+
+.ttl.g-std {
+    padding: 5px 0;
+}
+.bin.g-b, .bid.g-b {
+background: #7ce544;
+color: #ffffff;
+bottom: -30px;
+display: block;
+font-size: 120%;
+font-weight: normal;
+padding: 10px 20px;
+position: absolute;
+right: 0;
+text-align: left;
+width: 93.5%;
+}
+
+.bin.g-b:before, .bid.g-b:before {
+    border-width: 8px;
+    content:"";
+    position:absolute;
+    bottom:0;
+    right:0;
+    border-style:solid;
+border-color: #7ce544 #061528 #061528 #7ce544;
+display:block;
+width:0;
+opacity: .5;
+}
+
+
+.ttl.g-std a {
+    color: #000;
+    font-size: 110%;
+}
+.picture.camera .image {
+    width: 100% !important;
+}
+.picture.camera .image img {
+    max-width: 100%;
+    max-height: 150px;
+}
+table.pgbc {
+    border: none;
+    background: none;
+}
+.lcat ul.lev1 > li:after {
+    content: '▼';
+    float: right;
+    font-size: 8px;
+    color: #666;
+    line-height: 18px;
+}
+.lcat ul.lev1 {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+
+#storercp {
+    border-top: 15px solid #7ce544;
+}
+
+#storercp:before {
+    content: "";
+    display: block;
+    background: #061528 url(https://img.freeauctiondesigns.com/dancurran92/logo.jpg) 30px 20px no-repeat;
+    background-size: auto 60px;
+    color:  #ffffff;
+    padding: 130px 900px 20px 30px;
+    position: relative;
+    font-size: 90%;
+    width: 35%;
+}
+.stBadge:before {
+    content: "Handcafted E-Liquid & Head Shop";
+    color:  #ffffff;
+    display: block;
+    position: relative;
+    top: 120px;
+    left: 30px;
+    font-size: 95%;
+    z-index: 10;
+}
+
+.stBadge-midContent {
+    margin-top: 70px;
+}
+
+/** Promo banner **/
+
+#storercp_mide::before {
+    background-image: url(https://img.freeauctiondesigns.com/dancurran92/credit.png);
+    content: ' ';
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    margin-top: -70px;
+    z-index: 100;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: 870px;
+    background-color: #b3b2b2;
+}
+
+.r3_cm,
+.rs-pview {
+    padding: 0 !important;
+}
+
+.stBadge {
+    margin-top: -17px;
+}
